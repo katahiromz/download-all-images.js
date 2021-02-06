@@ -3,10 +3,11 @@
 - Browser: Microsoft Edge Version 88.0.705.63
 - Copyright (C) 2021 片山博文MZ.
 
-```js
-// To download all the images on the current web page, please paste the following code on Console of Developer Tool of the browser.
-// 以下のコードをブラウザの開発者ツールのコンソールに貼り付けて、Enterキーを押すと、表示中のWebページの画像を全部ダウンロードできる。
+To download all the images on the current web page, please paste the following code on Console of Developer Tool of the browser.
 
+以下のコードをブラウザの開発者ツールのコンソールに貼り付けて、Enterキーを押すと、表示中のWebページの画像を全部ダウンロードできる。
+
+```js
 let INTERVAL = 500; // 時間間隔（ミリ秒）。
 let MIN_BYTES = 256; // 画像の最小バイトサイズ。
 (function(){
